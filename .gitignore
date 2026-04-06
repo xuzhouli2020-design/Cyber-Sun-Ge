@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Raw book files (copyright)
+personas/*/raw/books/*.epub
+personas/*/raw/books/extracted_text/
+
+# Claude Code local config & memory
+.claude/projects/
+.claude/settings*
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
